@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="wizard_checkout_school_buyer" inherit_id="website_sale.wizard_checkout">
+        <xpath expr="//ul/li[@id='step40']" position="replace">
+            <li t-if="not ((order and order.partner_id and order.partner_id.is_school_buyer) or (website_sale_order and website_sale_order.partner_id and website_sale_order.partner_id.is_school_buyer))" t-att-class="(step==40 and 'text-primary') or 'text-muted'" id="step40">
+                Payment<span class="chevron"></span>
+            </li>
+        </xpath>
+    </template>
+
+    <template id="website_sale_cart_warning" inherit_id="website_sale.cart">
+        <xpath expr="//a[@href='/shop/checkout']" position="replace">
+            <a t-if="not optional_products and website_sale_order and website_sale_order.website_order_line" href="/shop/checkout" t-attf-class="btn btn-primary pull-right mb32 {{ 'disabled' if products_not_in_zone else 'enabled' }}">
+                <span class="hidden-xs">Process Checkout</span>
+                <span class="visible-xs-inline">Checkout</span>
+                <span class="fa fa-long-arrow-right" />
+            </a>
+            <t t-if="products_not_in_zone">
+                <p class="bg-warning">You have a products not from your zone:</p>
+                <t t-foreach="products_not_in_zone" t-as="pniz">
+                    <p class="bg-warning" t-field="pniz.name"/>
+                </t>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="portal_layout_zoning" inherit_id="website_portal.portal_layout">
+        <xpath expr="//div[@t-field='user.partner_id']" position="after">
+            <div t-if="user.partner_id.is_school_buyer">
+                <h4>ZONE ID</h4>
+                <div t-if="user.partner_id.zone_id">
+                    <div t-field="user.partner_id.zone_id"/>
+                </div>
+                <div t-if="not user.partner_id.zone_id">
+                    <div>UNKNOWN</div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>

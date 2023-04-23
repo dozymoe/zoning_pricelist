@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- <data noupdate="1"> -->
+    <data>
+
+        <record id="pzc_27" model="product.zone.code">
+            <field name="name">27</field>
+            <field name="value">27</field>
+        </record>
+
+        <record id="pzc_28" model="product.zone.code">
+            <field name="name">28</field>
+            <field name="value">28</field>
+        </record>
+
+        <record id="pzc_29" model="product.zone.code">
+            <field name="name">29</field>
+            <field name="value">29</field>
+        </record>
+
+        <record id="pzc_30" model="product.zone.code">
+            <field name="name">30</field>
+            <field name="value">30</field>
+        </record>
+
+        <record id="pzc_56" model="product.zone.code">
+            <field name="name">56</field>
+            <field name="value">56</field>
+        </record>
+
+        <record id="pzc_57" model="product.zone.code">
+            <field name="name">57</field>
+            <field name="value">57</field>
+        </record>
+
+        <record id="pzc_334" model="product.zone.code">
+            <field name="name">334</field>
+            <field name="value">334</field>
+        </record>
+
+        <record id="pzc_62" model="product.zone.code">
+            <field name="name">62</field>
+            <field name="value">62</field>
+        </record>
+
+        <record id="pzc_63" model="product.zone.code">
+            <field name="name">63</field>
+            <field name="value">63</field>
+        </record>
+
+        <record id="pzc_64" model="product.zone.code">
+            <field name="name">64</field>
+            <field name="value">64</field>
+        </record>
+
+        <record id="pzc_65" model="product.zone.code">
+            <field name="name">65</field>
+            <field name="value">65</field>
+        </record>
+
+        <record id="pzc_175" model="product.zone.code">
+            <field name="name">175</field>
+            <field name="value">175</field>
+        </record>
+
+        <record id="pzc_183" model="product.zone.code">
+            <field name="name">183</field>
+            <field name="value">183</field>
+        </record>
+
+        <record id="pzc_233" model="product.zone.code">
+            <field name="name">233</field>
+            <field name="value">233</field>
+        </record>
+
+        <record id="pzc_294" model="product.zone.code">
+            <field name="name">294</field>
+            <field name="value">294</field>
+        </record>
+
+        <record id="pzc_379" model="product.zone.code">
+            <field name="name">379</field>
+            <field name="value">379</field>
+        </record>
+
+        <record id="pzc_397" model="product.zone.code">
+            <field name="name">397</field>
+            <field name="value">397</field>
+        </record>
+
+        <record id="pzc_77" model="product.zone.code">
+            <field name="name">77</field>
+            <field name="value">77</field>
+        </record>
+
+        <record id="pzc_88" model="product.zone.code">
+            <field name="name">88</field>
+            <field name="value">88</field>
+        </record>
+
+        <record id="pzc_129" model="product.zone.code">
+            <field name="name">129</field>
+            <field name="value">129</field>
+        </record>
+
+        <record id="pzc_130" model="product.zone.code">
+            <field name="name">130</field>
+            <field name="value">130</field>
+        </record>
+
+        <record id="pzc_131" model="product.zone.code">
+            <field name="name">131</field>
+            <field name="value">131</field>
+        </record>
+
+        <record id="pzc_361" model="product.zone.code">
+            <field name="name">361</field>
+            <field name="value">361</field>
+        </record>
+
+        <record id="pzc_50" model="product.zone.code">
+            <field name="name">50</field>
+            <field name="value">50</field>
+        </record>
+
+        <record id="pzc_97" model="product.zone.code">
+            <field name="name">97</field>
+            <field name="value">97</field>
+        </record>
+
+        <record id="pzc_156" model="product.zone.code">
+            <field name="name">156</field>
+            <field name="value">156</field>
+        </record>
+
+        <record id="pzc_194" model="product.zone.code">
+            <field name="name">194</field>
+            <field name="value">194</field>
+        </record>
+
+        <record id="pzc_280" model="product.zone.code">
+            <field name="name">280</field>
+            <field name="value">280</field>
+        </record>
+
+        <record id="pzc_293" model="product.zone.code">
+            <field name="name">293</field>
+            <field name="value">293</field>
+        </record>
+
+        <record id="pzc_393" model="product.zone.code">
+            <field name="name">393</field>
+            <field name="value">393</field>
+        </record>
+
+        <record id="pzc_442" model="product.zone.code">
+            <field name="name">442</field>
+            <field name="value">442</field>
+        </record>
+
+        <record id="pzc_460" model="product.zone.code">
+            <field name="name">460</field>
+            <field name="value">460</field>
+        </record>
+
+        <record id="pzc_461" model="product.zone.code">
+            <field name="name">461</field>
+            <field name="value">461</field>
+        </record>
+
+        <record id="pzc_471" model="product.zone.code">
+            <field name="name">471</field>
+            <field name="value">471</field>
+        </record>
+
+        <record id="pzc_120" model="product.zone.code">
+            <field name="name">120</field>
+            <field name="value">120</field>
+        </record>
+
+        <record id="pzc_147" model="product.zone.code">
+            <field name="name">147</field>
+            <field name="value">147</field>
+        </record>
+
+        <record id="pzc_148" model="product.zone.code">
+            <field name="name">148</field>
+            <field name="value">148</field>
+        </record>
+
+        <record id="pzc_166" model="product.zone.code">
+            <field name="name">166</field>
+            <field name="value">166</field>
+        </record>
+
+        <record id="pzc_207" model="product.zone.code">
+            <field name="name">207</field>
+            <field name="value">207</field>
+        </record>
+
+        <record id="pzc_350" model="product.zone.code">
+            <field name="name">350</field>
+            <field name="value">350</field>
+        </record>
+
+        <record id="pzc_351" model="product.zone.code">
+            <field name="name">351</field>
+            <field name="value">351</field>
+        </record>
+
+        <record id="pzc_381" model="product.zone.code">
+            <field name="name">381</field>
+            <field name="value">381</field>
+        </record>
+
+        <record id="pzc_382" model="product.zone.code">
+            <field name="name">382</field>
+            <field name="value">382</field>
+        </record>
+
+        <record id="pzc_406" model="product.zone.code">
+            <field name="name">406</field>
+            <field name="value">406</field>
+        </record>
+
+        <record id="pzc_253" model="product.zone.code">
+            <field name="name">253</field>
+            <field name="value">253</field>
+        </record>
+
+        <record id="pzc_262" model="product.zone.code">
+            <field name="name">262</field>
+            <field name="value">262</field>
+        </record>
+
+        <record id="pzc_265" model="product.zone.code">
+            <field name="name">265</field>
+            <field name="value">265</field>
+        </record>
+
+        <record id="pzc_266" model="product.zone.code">
+            <field name="name">266</field>
+            <field name="value">266</field>
+        </record>
+
+        <record id="pzc_362" model="product.zone.code">
+            <field name="name">362</field>
+            <field name="value">362</field>
+        </record>
+
+        <record id="pzc_38" model="product.zone.code">
+            <field name="name">38</field>
+            <field name="value">38</field>
+        </record>
+
+        <record id="pzc_47" model="product.zone.code">
+            <field name="name">47</field>
+            <field name="value">47</field>
+        </record>
+
+        <record id="pzc_87" model="product.zone.code">
+            <field name="name">87</field>
+            <field name="value">87</field>
+        </record>
+
+        <record id="pzc_95" model="product.zone.code">
+            <field name="name">95</field>
+            <field name="value">95</field>
+        </record>
+
+        <record id="pzc_123" model="product.zone.code">
+            <field name="name">123</field>
+            <field name="value">123</field>
+        </record>
+
+        <record id="pzc_132" model="product.zone.code">
+            <field name="name">132</field>
+            <field name="value">132</field>
+        </record>
+
+        <record id="pzc_162" model="product.zone.code">
+            <field name="name">162</field>
+            <field name="value">162</field>
+        </record>
+
+        <record id="pzc_244" model="product.zone.code">
+            <field name="name">244</field>
+            <field name="value">244</field>
+        </record>
+
+        <record id="pzc_245" model="product.zone.code">
+            <field name="name">245</field>
+            <field name="value">245</field>
+        </record>
+
+        <record id="pzc_246" model="product.zone.code">
+            <field name="name">246</field>
+            <field name="value">246</field>
+        </record>
+
+        <record id="pzc_254" model="product.zone.code">
+            <field name="name">254</field>
+            <field name="value">254</field>
+        </record>
+
+        <record id="pzc_275" model="product.zone.code">
+            <field name="name">275</field>
+            <field name="value">275</field>
+        </record>
+
+        <record id="pzc_328" model="product.zone.code">
+            <field name="name">328</field>
+            <field name="value">328</field>
+        </record>
+
+        <record id="pzc_333" model="product.zone.code">
+            <field name="name">333</field>
+            <field name="value">333</field>
+        </record>
+
+        <record id="pzc_336" model="product.zone.code">
+            <field name="name">336</field>
+            <field name="value">336</field>
+        </record>
+
+        <record id="pzc_360" model="product.zone.code">
+            <field name="name">360</field>
+            <field name="value">360</field>
+        </record>
+
+        <record id="pzc_396" model="product.zone.code">
+            <field name="name">396</field>
+            <field name="value">396</field>
+        </record>
+
+        <record id="pzc_408" model="product.zone.code">
+            <field name="name">408</field>
+            <field name="value">408</field>
+        </record>
+
+        <record id="pzc_416" model="product.zone.code">
+            <field name="name">416</field>
+            <field name="value">416</field>
+        </record>
+
+        <record id="pzc_423" model="product.zone.code">
+            <field name="name">423</field>
+            <field name="value">423</field>
+        </record>
+
+        <record id="pzc_448" model="product.zone.code">
+            <field name="name">448</field>
+            <field name="value">448</field>
+        </record>
+
+        <record id="pzc_451" model="product.zone.code">
+            <field name="name">451</field>
+            <field name="value">451</field>
+        </record>
+
+        <record id="pzc_486" model="product.zone.code">
+            <field name="name">486</field>
+            <field name="value">486</field>
+        </record>
+
+        <record id="pzc_493" model="product.zone.code">
+            <field name="name">493</field>
+            <field name="value">493</field>
+        </record>
+
+        <record id="pzc_25" model="product.zone.code">
+            <field name="name">25</field>
+            <field name="value">25</field>
+        </record>
+
+        <record id="pzc_98" model="product.zone.code">
+            <field name="name">98</field>
+            <field name="value">98</field>
+        </record>
+
+        <record id="pzc_119" model="product.zone.code">
+            <field name="name">119</field>
+            <field name="value">119</field>
+        </record>
+
+        <record id="pzc_291" model="product.zone.code">
+            <field name="name">291</field>
+            <field name="value">291</field>
+        </record>
+
+        <record id="pzc_329" model="product.zone.code">
+            <field name="name">329</field>
+            <field name="value">329</field>
+        </record>
+
+        <record id="pzc_338" model="product.zone.code">
+            <field name="name">338</field>
+            <field name="value">338</field>
+        </record>
+
+        <record id="pzc_366" model="product.zone.code">
+            <field name="name">366</field>
+            <field name="value">366</field>
+        </record>
+
+        <record id="pzc_483" model="product.zone.code">
+            <field name="name">483</field>
+            <field name="value">483</field>
+        </record>
+
+        <record id="pzc_53" model="product.zone.code">
+            <field name="name">53</field>
+            <field name="value">53</field>
+        </record>
+
+        <record id="pzc_101" model="product.zone.code">
+            <field name="name">101</field>
+            <field name="value">101</field>
+        </record>
+
+        <record id="pzc_102" model="product.zone.code">
+            <field name="name">102</field>
+            <field name="value">102</field>
+        </record>
+
+        <record id="pzc_182" model="product.zone.code">
+            <field name="name">182</field>
+            <field name="value">182</field>
+        </record>
+
+        <record id="pzc_198" model="product.zone.code">
+            <field name="name">198</field>
+            <field name="value">198</field>
+        </record>
+
+        <record id="pzc_199" model="product.zone.code">
+            <field name="name">199</field>
+            <field name="value">199</field>
+        </record>
+
+        <record id="pzc_201" model="product.zone.code">
+            <field name="name">201</field>
+            <field name="value">201</field>
+        </record>
+
+        <record id="pzc_202" model="product.zone.code">
+            <field name="name">202</field>
+            <field name="value">202</field>
+        </record>
+
+        <record id="pzc_295" model="product.zone.code">
+            <field name="name">295</field>
+            <field name="value">295</field>
+        </record>
+
+        <record id="pzc_494" model="product.zone.code">
+            <field name="name">494</field>
+            <field name="value">494</field>
+        </record>
+
+        <record id="pzc_73" model="product.zone.code">
+            <field name="name">73</field>
+            <field name="value">73</field>
+        </record>
+
+        <record id="pzc_81" model="product.zone.code">
+            <field name="name">81</field>
+            <field name="value">81</field>
+        </record>
+
+        <record id="pzc_82" model="product.zone.code">
+            <field name="name">82</field>
+            <field name="value">82</field>
+        </record>
+
+        <record id="pzc_83" model="product.zone.code">
+            <field name="name">83</field>
+            <field name="value">83</field>
+        </record>
+
+        <record id="pzc_84" model="product.zone.code">
+            <field name="name">84</field>
+            <field name="value">84</field>
+        </record>
+
+        <record id="pzc_190" model="product.zone.code">
+            <field name="name">190</field>
+            <field name="value">190</field>
+        </record>
+
+        <record id="pzc_204" model="product.zone.code">
+            <field name="name">204</field>
+            <field name="value">204</field>
+        </record>
+
+        <record id="pzc_267" model="product.zone.code">
+            <field name="name">267</field>
+            <field name="value">267</field>
+        </record>
+
+        <record id="pzc_285" model="product.zone.code">
+            <field name="name">285</field>
+            <field name="value">285</field>
+        </record>
+
+        <record id="pzc_286" model="product.zone.code">
+            <field name="name">286</field>
+            <field name="value">286</field>
+        </record>
+
+        <record id="pzc_287" model="product.zone.code">
+            <field name="name">287</field>
+            <field name="value">287</field>
+        </record>
+
+        <record id="pzc_288" model="product.zone.code">
+            <field name="name">288</field>
+            <field name="value">288</field>
+        </record>
+
+        <record id="pzc_485" model="product.zone.code">
+            <field name="name">485</field>
+            <field name="value">485</field>
+        </record>
+
+        <record id="pzc_12" model="product.zone.code">
+            <field name="name">12</field>
+            <field name="value">12</field>
+        </record>
+
+        <record id="pzc_93" model="product.zone.code">
+            <field name="name">93</field>
+            <field name="value">93</field>
+        </record>
+
+        <record id="pzc_116" model="product.zone.code">
+            <field name="name">116</field>
+            <field name="value">116</field>
+        </record>
+
+        <record id="pzc_236" model="product.zone.code">
+            <field name="name">236</field>
+            <field name="value">236</field>
+        </record>
+
+        <record id="pzc_318" model="product.zone.code">
+            <field name="name">318</field>
+            <field name="value">318</field>
+        </record>
+
+        <record id="pzc_321" model="product.zone.code">
+            <field name="name">321</field>
+            <field name="value">321</field>
+        </record>
+
+        <record id="pzc_322" model="product.zone.code">
+            <field name="name">322</field>
+            <field name="value">322</field>
+        </record>
+
+        <record id="pzc_337" model="product.zone.code">
+            <field name="name">337</field>
+            <field name="value">337</field>
+        </record>
+
+        <record id="pzc_339" model="product.zone.code">
+            <field name="name">339</field>
+            <field name="value">339</field>
+        </record>
+
+        <record id="pzc_340" model="product.zone.code">
+            <field name="name">340</field>
+            <field name="value">340</field>
+        </record>
+
+        <record id="pzc_345" model="product.zone.code">
+            <field name="name">345</field>
+            <field name="value">345</field>
+        </record>
+
+        <record id="pzc_357" model="product.zone.code">
+            <field name="name">357</field>
+            <field name="value">357</field>
+        </record>
+
+        <record id="pzc_394" model="product.zone.code">
+            <field name="name">394</field>
+            <field name="value">394</field>
+        </record>
+
+        <record id="pzc_411" model="product.zone.code">
+            <field name="name">411</field>
+            <field name="value">411</field>
+        </record>
+
+        <record id="pzc_420" model="product.zone.code">
+            <field name="name">420</field>
+            <field name="value">420</field>
+        </record>
+
+        <record id="pzc_421" model="product.zone.code">
+            <field name="name">421</field>
+            <field name="value">421</field>
+        </record>
+
+        <record id="pzc_453" model="product.zone.code">
+            <field name="name">453</field>
+            <field name="value">453</field>
+        </record>
+
+        <record id="pzc_15" model="product.zone.code">
+            <field name="name">15</field>
+            <field name="value">15</field>
+        </record>
+
+        <record id="pzc_52" model="product.zone.code">
+            <field name="name">52</field>
+            <field name="value">52</field>
+        </record>
+
+        <record id="pzc_70" model="product.zone.code">
+            <field name="name">70</field>
+            <field name="value">70</field>
+        </record>
+
+        <record id="pzc_110" model="product.zone.code">
+            <field name="name">110</field>
+            <field name="value">110</field>
+        </record>
+
+        <record id="pzc_112" model="product.zone.code">
+            <field name="name">112</field>
+            <field name="value">112</field>
+        </record>
+
+        <record id="pzc_137" model="product.zone.code">
+            <field name="name">137</field>
+            <field name="value">137</field>
+        </record>
+
+        <record id="pzc_146" model="product.zone.code">
+            <field name="name">146</field>
+            <field name="value">146</field>
+        </record>
+
+        <record id="pzc_173" model="product.zone.code">
+            <field name="name">173</field>
+            <field name="value">173</field>
+        </record>
+
+        <record id="pzc_217" model="product.zone.code">
+            <field name="name">217</field>
+            <field name="value">217</field>
+        </record>
+
+        <record id="pzc_218" model="product.zone.code">
+            <field name="name">218</field>
+            <field name="value">218</field>
+        </record>
+
+        <record id="pzc_219" model="product.zone.code">
+            <field name="name">219</field>
+            <field name="value">219</field>
+        </record>
+
+        <record id="pzc_229" model="product.zone.code">
+            <field name="name">229</field>
+            <field name="value">229</field>
+        </record>
+
+        <record id="pzc_268" model="product.zone.code">
+            <field name="name">268</field>
+            <field name="value">268</field>
+        </record>
+
+        <record id="pzc_278" model="product.zone.code">
+            <field name="name">278</field>
+            <field name="value">278</field>
+        </record>
+
+        <record id="pzc_319" model="product.zone.code">
+            <field name="name">319</field>
+            <field name="value">319</field>
+        </record>
+
+        <record id="pzc_320" model="product.zone.code">
+            <field name="name">320</field>
+            <field name="value">320</field>
+        </record>
+
+        <record id="pzc_323" model="product.zone.code">
+            <field name="name">323</field>
+            <field name="value">323</field>
+        </record>
+
+        <record id="pzc_325" model="product.zone.code">
+            <field name="name">325</field>
+            <field name="value">325</field>
+        </record>
+
+        <record id="pzc_353" model="product.zone.code">
+            <field name="name">353</field>
+            <field name="value">353</field>
+        </record>
+
+        <record id="pzc_389" model="product.zone.code">
+            <field name="name">389</field>
+            <field name="value">389</field>
+        </record>
+
+        <record id="pzc_404" model="product.zone.code">
+            <field name="name">404</field>
+            <field name="value">404</field>
+        </record>
+
+        <record id="pzc_407" model="product.zone.code">
+            <field name="name">407</field>
+            <field name="value">407</field>
+        </record>
+
+        <record id="pzc_413" model="product.zone.code">
+            <field name="name">413</field>
+            <field name="value">413</field>
+        </record>
+
+        <record id="pzc_459" model="product.zone.code">
+            <field name="name">459</field>
+            <field name="value">459</field>
+        </record>
+
+        <record id="pzc_463" model="product.zone.code">
+            <field name="name">463</field>
+            <field name="value">463</field>
+        </record>
+
+        <record id="pzc_464" model="product.zone.code">
+            <field name="name">464</field>
+            <field name="value">464</field>
+        </record>
+
+        <record id="pzc_465" model="product.zone.code">
+            <field name="name">465</field>
+            <field name="value">465</field>
+        </record>
+
+        <record id="pzc_470" model="product.zone.code">
+            <field name="name">470</field>
+            <field name="value">470</field>
+        </record>
+
+        <record id="pzc_481" model="product.zone.code">
+            <field name="name">481</field>
+            <field name="value">481</field>
+        </record>
+
+    </data>
+</odoo>

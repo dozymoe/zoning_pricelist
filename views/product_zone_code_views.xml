@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Zone Code Views -->
+        <record id="view_product_zone_code_form" model="ir.ui.view">
+            <field name="model">product.zone.code</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Zone Code">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name" class="oe_inline"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="value"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_product_zone_code_tree" model="ir.ui.view">
+            <field name="model">product.zone.code</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Zone Codes">
+                    <field name="display_name"/>
+                    <field name="value"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_product_zone_code" model="ir.actions.act_window">
+            <field name="name">Zone Code</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.zone.code</field>
+            <field name="view_type">form</field>
+        </record>
+
+    </data>
+</odoo>

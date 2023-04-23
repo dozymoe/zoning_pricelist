@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Pricelist Zoning Views -->
+        <record id="view_product_pricelist_zoning_form" model="ir.ui.view">
+            <field name="model">product.pricelist.zoning</field>
+            <field name="arch" type="xml">
+                <form string="Pricelist Zoning">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name" class="oe_inline"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="active"/>
+                                <field name="item_ids"/>
+                                <field name="zone_ids" widget="many2many"/>
+                                <field name="value"/>
+                                <field name="currency_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_product_pricelist_zoning_tree" model="ir.ui.view">
+            <field name="model">product.pricelist.zoning</field>
+            <field name="arch" type="xml">
+                <tree string="Pricelist Zonings">
+                    <field name="name"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_product_pricelist_zoning" model="ir.actions.act_window">
+            <field name="name">Pricelist Zoning</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.pricelist.zoning</field>
+            <field name="view_type">form</field>
+        </record>
+
+    </data>
+</odoo>

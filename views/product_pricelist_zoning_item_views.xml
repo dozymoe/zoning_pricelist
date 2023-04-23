@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Pricelist Zoning Item Views -->
+        <record id="view_product_pricelist_zoning_item_form" model="ir.ui.view">
+            <field name="model">product.pricelist.zoning.item</field>
+            <field name="arch" type="xml">
+                <form string="Pricelist Zoning Item">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only"/>
+                            <h1><field name="name" class="oe_inline"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="applied_on" widget="radio"/>
+                                <field name="categ_id" attrs="{'invisible':[('applied_on', '!=', '2_product_category')], 'required':[('applied_on', '=', '2_product_category')]}"/>
+                                <field name="product_tmpl_id" attrs="{'invisible':[('applied_on', '!=', '1_product')],'required':[('applied_on', '=', '1_product')]}" string="Product"/>
+                                <field name="product_id" attrs="{'invisible':[('applied_on', '!=', '0_product_variant')],'required':[('applied_on', '=', '0_product_variant')]}" string="Product Variant"/>
+                            </group>
+                            <div class="oe_grey" groups="product.group_uom">
+                                <p>The computed price is expressed in the default Unit of Measure of the product.</p>
+                            </div>
+                            <group col="6" attrs="{'invisible':[('compute_price', '!=', 'formula')]}">
+                                <field name="base" colspan="6"/>
+
+                                <label string="New Price ="/>
+                                <div>
+                                    <span attrs="{'invisible':[('base', '!=', 'list_price')]}">Public Price  -  </span>
+                                    <span attrs="{'invisible':[('base', '!=', 'standard_price')]}">Cost  -  </span>
+                                    <span attrs="{'invisible':[('base', '!=', 'pricelist')]}">Other Pricelist  -  </span>
+                                </div>
+                                <label string=" + " for="price_surcharge"/>
+                                <field name="price_surcharge" nolabel="1"/>
+
+                                <field name="price_round" string="Rounding Method"/>
+                                <field name="price_min_margin" string="Min. Margin"/>
+                                <field name="price_max_margin" string="Max. Margin"/>
+
+                                <field name="base_pricelist_id" attrs="{'invisible':[('base', '!=', 'pricelist')],'required': [('base','=', 'pricelist')], 'readonly': [('base','!=', 'pricelist')]}"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_product_pricelist_zoning_item_tree" model="ir.ui.view">
+            <field name="model">product.pricelist.zoning.item</field>
+            <field name="arch" type="xml">
+                <tree string="Pricelist Zoning Items">
+                    <field name="name"/>
+                    <field name="applied_on"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_product_pricelist_zoning_item" model="ir.actions.act_window">
+            <field name="name">Pricelist Zoning Item</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.pricelist.zoning.item</field>
+            <field name="view_type">form</field>
+        </record>
+
+    </data>
+</odoo>

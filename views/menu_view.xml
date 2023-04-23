@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="menu_product_zoning_main" name="Zoning" parent="sales_team.menu_sale_config" groups="product.group_sale_pricelist" sequence="4"/>
+        <menuitem action="zoning_pricelist.action_product_zone" id="menu_product_zone" parent="menu_product_zoning_main" sequence="1" groups="product.group_sale_pricelist"/>
+        <menuitem action="zoning_pricelist.action_product_zone_code" id="menu_product_zone_code" parent="menu_product_zoning_main" sequence="1" groups="product.group_sale_pricelist"/>
+
+
+        <menuitem id="menu_product_zoning_pricelist_main" name="Zoning Pricelists" parent="sales_team.menu_sale_config" groups="product.group_sale_pricelist" sequence="5"/>
+        <menuitem action="zoning_pricelist.action_product_pricelist_zoning" id="menu_product_pricelist_zoning" parent="menu_product_zoning_pricelist_main" sequence="1" groups="product.group_sale_pricelist"/>
+        <menuitem action="zoning_pricelist.action_product_pricelist_zoning_item" id="menu_product_pricelist_zoning_item" parent="menu_product_zoning_pricelist_main" sequence="1" groups="product.group_sale_pricelist"/>
+
+    </data>
+</odoo>

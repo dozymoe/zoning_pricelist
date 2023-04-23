@@ -1,0 +1,305 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* zoning_pricelist
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-06 05:46+0000\n"
+"PO-Revision-Date: 2018-05-06 05:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Public Price  -  </span>\n"
+"                                    <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Cost  -  </span>\n"
+"                                    <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Other Pricelist  -  </span>"
+msgstr "<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Harga Tampilan  -  </span>\n"
+"                                    <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Harga Dasar  -  </span>\n"
+"                                    <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Harga Lainnya  -  </span>"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_active
+msgid "Active"
+msgstr "Aktif"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_ids
+msgid "Codes"
+msgstr "Kode-Kode"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_company_id
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_create_uid
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_create_uid
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_create_uid
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_create_uid
+msgid "Created by"
+msgstr "Dibuat oleh"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_create_date
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_create_date
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_create_date
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_create_date
+msgid "Created on"
+msgstr "Dibuat pada"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_currency_id
+msgid "Currency"
+msgstr "Mata Uang"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_description
+msgid "Description"
+msgstr "Keterangan"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_display_name
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_display_name
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_display_name
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_display_name
+msgid "Display Name"
+msgstr "Nama Tampilan"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_id
+msgid "ID"
+msgstr "ID"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_identifier_rules
+msgid "Identifier Rules"
+msgstr "Pola untuk Mengenali Zona"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,help:zoning_pricelist.field_product_pricelist_zoning_active
+msgid "If unchecked, it will allow you to hide the pricelist without removing it."
+msgstr "Jika dicentang, akan memungkinkan Anda untuk menyembunyikan pricelist tanpa menghapus."
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning___last_update
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item___last_update
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone___last_update
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code___last_update
+msgid "Last Modified on"
+msgstr "Terakhir diubah pada"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_write_uid
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_write_uid
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_write_uid
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_write_uid
+msgid "Last Updated by"
+msgstr "Terakhir diperbarui oleh"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_write_date
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_write_date
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_write_date
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_write_date
+msgid "Last Updated on"
+msgstr "Terakhir Diperbaharui pada"
+
+#. module: zoning_pricelist
+#: model:ir.model,name:zoning_pricelist.model_product_template
+msgid "Marketplace Product Template"
+msgstr "Marketplace Product Template"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "Max. Margin"
+msgstr "Batas Atas"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "Min. Margin"
+msgstr "Batas Bawah"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_name
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_name
+msgid "Name"
+msgstr "Nama"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "New Price ="
+msgstr "Harga Baru ="
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_base_pricelist_id
+msgid "Other Pricelist"
+msgstr "Daftar Harga Lainnya"
+
+#. module: zoning_pricelist
+#: model:ir.model,name:zoning_pricelist.model_res_partner
+msgid "Partner"
+msgstr "Rekanan"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.wizard_checkout_school_buyer
+msgid "Payment<span class=\"chevron\"/>"
+msgstr "Pembayaran<span class=\"chevron\"/>"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_ids
+msgid "Pricelist Items"
+msgstr "Unit-Unit Dalam Daftar Harga"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_name
+msgid "Pricelist Name"
+msgstr "Nama Daftar Harga"
+
+#. module: zoning_pricelist
+#: model:ir.actions.act_window,name:zoning_pricelist.action_product_pricelist_zoning
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_item_pricelist_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_pricelist_id
+#: model:ir.ui.menu,name:zoning_pricelist.menu_product_pricelist_zoning
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_form
+msgid "Pricelist Zoning"
+msgstr "Daftar Harga Berdasarkan Zona"
+
+#. module: zoning_pricelist
+#: model:ir.actions.act_window,name:zoning_pricelist.action_product_pricelist_zoning_item
+#: model:ir.model,name:zoning_pricelist.model_product_pricelist_zoning_item
+#: model:ir.ui.menu,name:zoning_pricelist.menu_product_pricelist_zoning_item
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "Pricelist Zoning Item"
+msgstr "Unit Dalam Daftar Harga Berdasarkan Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_tree
+msgid "Pricelist Zoning Items"
+msgstr "Unit-Unit Dalam Daftar Harga Berdasarkan Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_tree
+msgid "Pricelist Zonings"
+msgstr "Daftar-Daftar Harga Berdasarkan Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "Product"
+msgstr "Produk"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "Product Variant"
+msgstr "Varian Produk"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_delivery_carrier_zone_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_product_zone_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_template_zone_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_res_partner_zone_id
+#: model:ir.model.fields,field_description:zoning_pricelist.field_res_users_zone_id
+msgid "Related Zone ID"
+msgstr "Zona Produk"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_zone_ids
+msgid "Related Zones"
+msgstr "Zona-Zona Terkait"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "Rounding Method"
+msgstr "Metode Pembulatan"
+
+#. module: zoning_pricelist
+#: model:ir.model,name:zoning_pricelist.model_sale_order
+msgid "Sales Order"
+msgstr "Pesanan-Pesanan"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_pricelist_zoning_item_form
+msgid "The computed price is expressed in the default Unit of Measure of the product."
+msgstr "Harga ini berdasarkan atas nilai satuan dari produk."
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.portal_layout_zoning
+msgid "UNKNOWN"
+msgstr "TIDAK DIKETAHUI"
+
+#. module: zoning_pricelist
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_pricelist_zoning_value
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_value
+msgid "Value"
+msgstr "Nilai"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.website_sale_cart_warning
+msgid "You have a products not from your zone:"
+msgstr "Ada produk yang berada di luar Zona Anda:"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.portal_layout_zoning
+msgid "ZONE ID"
+msgstr "ID ZONA"
+
+#. module: zoning_pricelist
+#: model:ir.actions.act_window,name:zoning_pricelist.action_product_zone
+#: model:ir.model.fields,field_description:zoning_pricelist.field_product_zone_code_product_zone_id
+#: model:ir.ui.menu,name:zoning_pricelist.menu_product_zone
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_zone_form
+msgid "Zone"
+msgstr "Zona"
+
+#. module: zoning_pricelist
+#: model:ir.actions.act_window,name:zoning_pricelist.action_product_zone_code
+#: model:ir.ui.menu,name:zoning_pricelist.menu_product_zone_code
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_zone_code_form
+msgid "Zone Code"
+msgstr "Kode Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_zone_code_tree
+msgid "Zone Codes"
+msgstr "Kode-Kode Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.view,arch_db:zoning_pricelist.view_product_zone_tree
+msgid "Zones"
+msgstr "Zona-Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.menu,name:zoning_pricelist.menu_product_zoning_main
+msgid "Zoning"
+msgstr "Klasifikasi Berdasarkan Zona"
+
+#. module: zoning_pricelist
+#: model:ir.ui.menu,name:zoning_pricelist.menu_product_zoning_pricelist_main
+msgid "Zoning Pricelists"
+msgstr "Daftar Harga Berdasarkan Zona"
+
+#. module: zoning_pricelist
+#: model:ir.model,name:zoning_pricelist.model_product_pricelist_zoning
+msgid "product.pricelist.zoning"
+msgstr "product.pricelist.zoning"
+
+#. module: zoning_pricelist
+#: model:ir.model,name:zoning_pricelist.model_product_zone
+msgid "product.zone"
+msgstr "product.zone"
+
+#. module: zoning_pricelist
+#: model:ir.model,name:zoning_pricelist.model_product_zone_code
+msgid "product.zone.code"
+msgstr "product.zone.code"
+
